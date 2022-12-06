@@ -48,7 +48,7 @@ Check out [this notebook](usage.ipynb) for examples of how to use EDICT; includi
 
 # Citation
 
-If you find our work useful in your research, please cite
+If you find our work useful in your research, please cite:
 
 ```
 @article{wallace2022edict,
