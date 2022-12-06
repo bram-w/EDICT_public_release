@@ -2,6 +2,8 @@
 
 [Arxiv](https://arxiv.org/abs/2211.12446)
 
+The original framework for this code is based off of Github user bloc97's [implementation of Prompt-to-Prompt](https://github.com/bloc97/CrossAttentionControl). 
+
 # What is EDICT?
 
 EDICT is an algorithm that closely mirrors a typical generative diffusion process but in an invertible fashion. We achieve this by tracking a *pair* of intermediate representations instead of just one. This exact invertibility enables edits that remain extremely faithful to the original image. Check out our [paper](https://arxiv.org/abs/2211.12446) for more details and don't hesitate to reach out with questions!
@@ -29,7 +31,7 @@ Run  `conda env create -f environment.yaml`, activate that conda env (`conda act
 
 # Experimentation
 
-Check out [this notebook](usage.ipynb) for examples of how to use EDICT; including edits on randomly selected in-the-wild imagery.
+Check out [this notebook](EDICT.ipynb) for examples of how to use EDICT; including edits on randomly selected in-the-wild imagery.
 
 # Example Results
 
