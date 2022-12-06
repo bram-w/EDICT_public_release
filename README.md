@@ -6,14 +6,14 @@ The original framework for this code is based off of Github user bloc97's [imple
 
 # What is EDICT?
 
-EDICT is an algorithm that closely mirrors a typical generative diffusion process but in an invertible fashion. We achieve this by tracking a *pair* of intermediate representations instead of just one. This exact invertibility enables edits that remain extremely faithful to the original image. Check out our [paper](https://arxiv.org/abs/2211.12446) for more details and don't hesitate to reach out with questions!
+EDICT (Exact Diffusion Inversion via Coupled Transformations) is an algorithm that closely mirrors a typical generative diffusion process but in an invertible fashion. We achieve this by tracking a *pair* of intermediate representations instead of just one. This exact invertibility enables edits that remain extremely faithful to the original image. Check out our [paper](https://arxiv.org/abs/2211.12446) for more details and don't hesitate to reach out with questions!
 
 
 # Setup
 
 ## HF Auth token
 
-Put a copy of a suitable [HF Auth Token](https://huggingface.co/docs/hub/security-tokens) [hf_auth](hf_auth) with no new line (to be read by the following code in `edict_functions.py`)
+Paste a copy of a suitable [HF Auth Token](https://huggingface.co/docs/hub/security-tokens) into [hf_auth](hf_auth) with no new line (to be read by the following code in `edict_functions.py`)
 ```
 with open('hf_auth', 'r') as f:
     auth_token = f.readlines()[0].strip()
@@ -50,7 +50,7 @@ Check out [this notebook](EDICT.ipynb) for examples of how to use EDICT; includi
 
 # Citation
 
-If you find our work useful in your research, please cite
+If you find our work useful in your research, please cite:
 
 ```
 @article{wallace2022edict,
