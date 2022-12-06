@@ -35,10 +35,14 @@ Check out [this notebook](usage.ipynb) for examples of how to use EDICT; includi
 
 ## Changing Dog Breeds
 
-
+![Dogs](figs/edits_dogs.png)
 
 ## Miscellaneous
 
+
+![Some edits](figs/edits_1.png)
+
+![Some more edits](figs/edits_2.png)
 
 
 
