@@ -11,7 +11,7 @@ EDICT is an algorithm that closely mirrors a typical generative diffusion proces
 
 ## HF Auth token
 
-Put a copy of a suitable [HF Auth Token](https://huggingface.co/docs/hub/security-tokens) [hf_auth](hf_auth) with no new line (to be read by the following code in `edict_functions.py`)
+Paste a copy of a suitable [HF Auth Token](https://huggingface.co/docs/hub/security-tokens) into [hf_auth](hf_auth) with no new line (to be read by the following code in `edict_functions.py`)
 ```
 with open('hf_auth', 'r') as f:
     auth_token = f.readlines()[0].strip()
