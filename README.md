@@ -46,7 +46,9 @@ Check out [this notebook](EDICT.ipynb) for examples of how to use EDICT; includi
 
 ![Some more edits](figs/edits_2.png)
 
+# Other Files
 
+[edict_functions.py](edict_functions.py) has the core functionality of EDICT. [my_diffusers](my_diffusers) is a very slightly changed version of the [HF Diffusers repo](https://github.com/huggingface/diffusers) to work in double precision and avoid floating-point errors in our inversion/reconstruction experiments. EDICT editing also works at lower precisions, but to allow all experiments in a unified setting we present the double-precision floating point version of the code.
 
 # Citation
 
