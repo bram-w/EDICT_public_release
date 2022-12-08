@@ -31,7 +31,7 @@ Run  `conda env create -f environment.yaml`, activate that conda env (`conda act
 
 # Experimentation
 
-Check out [this notebook](EDICT.ipynb) for examples of how to use EDICT; including edits on randomly selected in-the-wild imagery.
+Check out [this notebook](EDICT.ipynb) for examples of how to use EDICT; including edits on randomly selected in-the-wild imagery ([alternative to render in browswer](EDICT_no_images.ipynb).
 
 # Example Results
 
